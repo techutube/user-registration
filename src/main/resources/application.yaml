@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    hikari:
+      schema: registration
+    username: postgres
+    password: admin
+  jpa:
+    show-sql: true
+    ddl-auto: create
+    generate-ddl: true
